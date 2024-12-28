@@ -1,0 +1,85 @@
+password = Mruus1yj33FlPckr , pVpYWFiJqUknAmrh
+
+name = sekpeyherbert
+
+
+
+MONGODB_URI=mongodb+srv://sekpeyherbert:<db_password>@cluster0.flabz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "publication_year": 1925,
+      "isbn": "9780743273565",
+      "summary": "A novel about the American dream and the disillusionment of the Jazz Age.",
+      "cover_image_url": "https://example.com/covers/great_gatsby.jpg",
+      "reviews": [
+        {
+          "review_id": 101,
+          "user_id": 201,
+          "rating": 4.5,
+          "review_text": "A beautifully written story with deep themes.",
+          "date": "2024-06-24"
+        },
+        {
+          "review_id": 102,
+          "user_id": 202,
+          "rating": 4.0,
+          "review_text": "Loved the characters and the atmosphere, but the ending was bittersweet.",
+          "date": "2024-06-20"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "publication_year": 1949,
+      "isbn": "9780451524935",
+      "summary": "A chilling depiction of a totalitarian society under constant surveillance.",
+      "cover_image_url": "https://example.com/covers/1984.jpg",
+      "reviews": [
+        {
+          "review_id": 103,
+          "user_id": 203,
+          "rating": 5.0,
+          "review_text": "A masterpiece that feels increasingly relevant in today's world.",
+          "date": "2024-06-22"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "user_id": 201,
+      "username": "booklover123",
+      "email": "booklover123@example.com",
+      "profile_picture_url": "https://example.com/profiles/booklover123.jpg",
+      "favorite_genres": ["Classic", "Romance"],
+      "reviews_written": [101]
+    },
+    {
+      "user_id": 202,
+      "username": "avidreader",
+      "email": "avidreader@example.com",
+      "profile_picture_url": "https://example.com/profiles/avidreader.jpg",
+      "favorite_genres": ["Mystery", "Thriller"],
+      "reviews_written": [102]
+    },
+    {
+      "user_id": 203,
+      "username": "literarycritic",
+      "email": "literarycritic@example.com",
+      "profile_picture_url": "https://example.com/profiles/literarycritic.jpg",
+      "favorite_genres": ["Dystopian", "Science Fiction"],
+      "reviews_written": [103]
+    }
+  ]
+}
